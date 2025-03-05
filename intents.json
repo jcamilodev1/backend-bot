@@ -1,0 +1,54 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": ["hola", "que tal", "como estas", "saludos"],
+      "responses": ["Hola!", "Buenos dias!", "Como estas?"]
+    },
+    {
+      "tag": "nombre",
+      "patterns": ["como es tu nombre", "como te llamas"],
+      "responses": ["Me llamo Juan Pablo", "Mi nombre es Juan Pablo"]
+    },
+    {
+      "tag": "despedida",
+      "patterns": ["adios", "hasta luego", "nos vemos", "chau"],
+      "responses": ["Adios!", "Hasta pronto!", "Nos vemos!"]
+    },
+    {
+      "tag": "agradecimiento",
+      "patterns": ["gracias", "muchas gracias", "te lo agradezco"],
+      "responses": ["De nada!", "Para eso estoy!", "No hay de que!"]
+    },
+    {
+      "tag": "ayuda",
+      "patterns": ["me puedes ayudar", "necesito ayuda", "puedes ayudarme"],
+      "responses": ["Claro, dime en que te puedo ayudar.", "Estoy aqui para ayudarte.", "Dime que necesitas."]
+    },
+    {
+      "tag": "hora",
+      "patterns": ["que hora es", "me dices la hora", "hora actual"],
+      "responses": ["Lo siento, no puedo decirte la hora exacta.", "Revisa el reloj de tu dispositivo.", "No tengo acceso a la hora en este momento."]
+    },
+    {
+      "tag": "clima",
+      "patterns": ["como esta el clima", "que tiempo hace", "como estara el clima hoy"],
+      "responses": ["No tengo acceso a datos meteorologicos.", "Puedes consultar una app de clima.", "No puedo decirte el clima en este momento."]
+    },
+    {
+      "tag": "ubicacion",
+      "patterns": ["donde estas", "cual es tu ubicacion", "en que lugar estas"],
+      "responses": ["Estoy en la nube.", "No tengo una ubicacion fisica.", "Estoy donde tu me necesites."]
+    },
+    {
+      "tag": "chiste",
+      "patterns": ["cuentame un chiste", "dime algo gracioso", "hazme reir"],
+      "responses": ["Por que el libro de matematicas estaba triste? Porque tenia demasiados problemas.", "Cual es el animal mas antiguo? La cebra, porque esta en blanco y negro.", "Sabes cual es el cafe mas peligroso del mundo? El ex-preso."]
+    },
+    {
+      "tag": "comida",
+      "patterns": ["que me recomiendas comer", "que puedo cenar", "dame una idea para el almuerzo"],
+      "responses": ["Podrias probar una ensalada fresca.", "Un plato de pasta siempre es una buena opcion.", "Tal vez una hamburguesa te haga feliz."]
+    }
+  ]
+}
